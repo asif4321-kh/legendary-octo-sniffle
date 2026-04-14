@@ -114,5 +114,3 @@ secrets.TAILSCALE_AUTH_KEY }} --hostname=gh-runner-$env:GITHUB_RUN_ID
               Write-Host "[$(Get-Date)] RDP Active - Use Ctrl+C in workflow to terminate" 
               Start-Sleep -Seconds 300 
           } 
- 
- 
